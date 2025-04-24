@@ -1,0 +1,11 @@
+﻿namespace ActivityHub.Domain.Entities
+{
+    public class User : Base
+    {
+        public string Name { get; set; } = string.Empty;
+        public string Email { get; set; } = string.Empty;
+        public string passwordHash { get; set; } = string.Empty;
+        public Guid UserIdentifier { get; set; }
+        public string avatarUrl { get; set; } = string.Empty;
+    }
+}

@@ -1,0 +1,3 @@
+{
+  "/(app)/activity/edit/[id]/page": "app/(app)/activity/edit/[id]/page.js"
+}

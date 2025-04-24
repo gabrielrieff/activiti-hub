@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 60, "column": 0}, "map": {"version":3,"sources":["file://C%3A/desenvolvimento/Estudos/activityhubfront/src/app/api/auth/sign-out/route.ts"],"sourcesContent":["import { cookies } from \"next/headers\";\r\nimport { NextRequest, NextResponse } from \"next/server\";\r\n\r\nexport async function GET(request: NextRequest) {\r\n  const redirectUrl = request.nextUrl.clone();\r\n\r\n  redirectUrl.pathname = \"/auth/sign-in\";\r\n\r\n  (await cookies()).delete(\"token\");\r\n\r\n  return NextResponse.redirect(redirectUrl);\r\n}\r\n"],"names":[],"mappings":";;;AAAA;AACA;;;AAEO,eAAe,IAAI,OAAoB;IAC5C,MAAM,cAAc,QAAQ,OAAO,CAAC,KAAK;IAEzC,YAAY,QAAQ,GAAG;IAEvB,CAAC,MAAM,CAAA,GAAA,iIAAA,CAAA,UAAO,AAAD,GAAG,EAAE,MAAM,CAAC;IAEzB,OAAO,gIAAA,CAAA,eAAY,CAAC,QAAQ,CAAC;AAC/B","debugId":null}}]
+}

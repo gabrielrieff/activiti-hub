@@ -1,0 +1,16 @@
+{
+  "node": {
+    "407132de2d9d5ff3f2296302b2259d5e2a6470d84d": {
+      "workers": {
+        "app/(app)/@modal/(.)activity/edit/[id]/page": {
+          "moduleId": "[project]/.next-internal/server/app/(app)/@modal/(.)activity/edit/[id]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/(app)/_components/activities/edit/action.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(app)/@modal/(.)activity/edit/[id]/page": "action-browser"
+      }
+    }
+  },
+  "edge": {}
+}

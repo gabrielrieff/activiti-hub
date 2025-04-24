@@ -1,0 +1,9 @@
+{
+  "/(app)/(user)/profile/page": "app/(app)/(user)/profile/page.js",
+  "/(app)/(user)/settings/page": "app/(app)/(user)/settings/page.js",
+  "/(app)/@modal/(.)activity/create/page": "app/(app)/@modal/(.)activity/create/page.js",
+  "/(app)/@modal/(.)activity/edit/[id]/page": "app/(app)/@modal/(.)activity/edit/[id]/page.js",
+  "/(app)/page": "app/(app)/page.js",
+  "/api/auth/callback/route": "app/api/auth/callback/route.js",
+  "/auth/sign-in/page": "app/auth/sign-in/page.js"
+}

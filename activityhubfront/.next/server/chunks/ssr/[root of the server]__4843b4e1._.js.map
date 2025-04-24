@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file://C%3A/www/repo-activiti-hub/activityhubfront/src/lib/react-query.ts"],"sourcesContent":["import { QueryClient } from \"@tanstack/react-query\";\r\n\r\nexport const queryClient = new QueryClient();\r\n"],"names":[],"mappings":";;;AAAA;;AAEO,MAAM,cAAc,IAAI,6KAAA,CAAA,cAAW","debugId":null}},
+    {"offset": {"line": 27, "column": 0}, "map": {"version":3,"sources":["file://C%3A/www/repo-activiti-hub/activityhubfront/src/app/providers.tsx"],"sourcesContent":["\"use client\";\r\n\r\nimport { ThemeProvider } from \"@/components/shared/theme-provider\";\r\nimport { queryClient } from \"@/lib/react-query\";\r\nimport { QueryClientProvider } from \"@tanstack/react-query\";\r\n\r\nexport function Providers({\r\n  children,\r\n}: Readonly<{\r\n  children: React.ReactNode;\r\n}>) {\r\n  return (\r\n    <QueryClientProvider client={queryClient}>{children}</QueryClientProvider>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;AAGA;AACA;AAJA;;;;AAMO,SAAS,UAAU,EACxB,QAAQ,EAGR;IACA,qBACE,8OAAC,sLAAA,CAAA,sBAAmB;QAAC,QAAQ,4HAAA,CAAA,cAAW;kBAAG;;;;;;AAE/C","debugId":null}}]
+}

@@ -1,0 +1,16 @@
+{
+  "node": {
+    "4004280febfb9d708e021a332471474cb7da946938": {
+      "workers": {
+        "app/(app)/@modal/(.)activity/create/page": {
+          "moduleId": "[project]/.next-internal/server/app/(app)/@modal/(.)activity/create/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/(app)/_components/activities/create/action.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(app)/@modal/(.)activity/create/page": "action-browser"
+      }
+    }
+  },
+  "edge": {}
+}

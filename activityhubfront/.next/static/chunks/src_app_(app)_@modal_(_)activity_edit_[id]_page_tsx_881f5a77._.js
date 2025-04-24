@@ -1,0 +1,12 @@
+(globalThis.TURBOPACK = globalThis.TURBOPACK || []).push([
+    "static/chunks/src_app_(app)_@modal_(_)activity_edit_[id]_page_tsx_881f5a77._.js",
+    {},
+]);
+(globalThis.TURBOPACK_CHUNK_LISTS = globalThis.TURBOPACK_CHUNK_LISTS || []).push({
+  "path": "static/chunks/src_app_(app)_@modal_(_)activity_edit_[id]_page_tsx_881f5a77._.js",
+  "chunks": [
+    "static/chunks/node_modules_d76c8aaa._.js",
+    "static/chunks/src_e6f16a58._.js"
+  ],
+  "source": "dynamic"
+});

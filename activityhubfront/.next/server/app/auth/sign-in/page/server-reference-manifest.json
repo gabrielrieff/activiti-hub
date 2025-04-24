@@ -1,0 +1,16 @@
+{
+  "node": {
+    "0078cbe990d3472dbbdc2f2d16dcbe7c3e3895d2bb": {
+      "workers": {
+        "app/auth/sign-in/page": {
+          "moduleId": "[project]/.next-internal/server/app/auth/sign-in/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/auth/sign-in/actions.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/auth/sign-in/page": "rsc"
+      }
+    }
+  },
+  "edge": {}
+}
